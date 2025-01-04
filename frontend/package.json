@@ -9,7 +9,7 @@
     "lint": "biome check --apply-unsafe --no-errors-on-unmatched --files-ignore-unknown=true ./",
     "preview": "vite preview",
     "generate-client": "openapi-ts",
-    "predeploy": "npm run build --prefix frontend",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d frontend/build"
   },
   "dependencies": {
