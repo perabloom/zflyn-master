@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "generate-client": "openapi-ts",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d frontend/build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@chakra-ui/icons": "2.1.1",
