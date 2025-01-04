@@ -9,8 +9,8 @@
     "lint": "biome check --apply-unsafe --no-errors-on-unmatched --files-ignore-unknown=true ./",
     "preview": "vite preview",
     "generate-client": "openapi-ts",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build --prefix frontend",
+    "deploy": "gh-pages -d frontend/build"
   },
   "dependencies": {
     "@chakra-ui/icons": "2.1.1",
